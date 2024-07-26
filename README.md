@@ -25,7 +25,7 @@ This Python script checks a list of passwords against the Aries Online API to se
 
 2. Run the script:
     ```bash
-    python script.py
+    python3 script.py
     ```
 
 3. The results will be displayed in the terminal with color-coded messages and saved to `checked.txt` with the current date.
