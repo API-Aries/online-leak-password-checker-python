@@ -19,26 +19,13 @@ This Python script checks a list of passwords against the Aries Online API to se
 - `requests` library
 - `colorama` library
 
-## Installation
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/password-checker.git
-    cd password-checker
-    ```
-
-2. Install the required libraries:
-    ```bash
-    pip install requests colorama
-    ```
-
 ## Usage
 
 1. Create a `passwords.txt` file in the same directory as the script. Add one password per line.
 
 2. Run the script:
     ```bash
-    python check_passwords.py
+    python script.py
     ```
 
 3. The results will be displayed in the terminal with color-coded messages and saved to `checked.txt` with the current date.
@@ -78,6 +65,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-Your Name - [your.email@example.com](mailto:your.email@example.com)
-
-Project Link: [https://github.com/yourusername/password-checker](https://github.com/yourusername/password-checker)
+Project Link: https://support.api-aries.online/hc/articles/1/3/19/pwned-password-checker
