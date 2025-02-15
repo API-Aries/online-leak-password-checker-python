@@ -52,9 +52,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgements
 
-- [Aries Online API](https://api.api-aries.online)
+- [Aries Online API](https://docs.api-aries.com)
 - [Colorama Library](https://pypi.org/project/colorama/)
 
 ## Contact
 
-Project Link: https://support.api-aries.online/hc/articles/1/3/19/pwned-password-checker
+Project Link: https://support.api-aries.com/hc/articles/1/3/19/pwned-password-checker
