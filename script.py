@@ -7,7 +7,7 @@ init()
 
 
 def check_password(password, api_token):
-    url = f'https://api.api-aries.online/v1/checkers/pwned-password/?password={password}'
+    url = f'https://api.api-aries.com/v1/checkers/pwned-password/?password={password}'
     headers = {'APITOKEN': api_token}
     response = requests.get(url, headers=headers)
     return response.json()
@@ -47,6 +47,6 @@ def main(password_file_path, api_token, output_file_path):
 
 if __name__ == "__main__":
     password_file_path = 'passwords.txt' #check password list
-    api_token = '111-111-111-111' # API Token here ##### find here: https://dashboard.api-aries.online/
+    api_token = '111-111-111-111' # API Token here ##### find here: https://panel.api-aries.com/
     output_file_path = 'checked.txt' # output file name
     main(password_file_path, api_token, output_file_path)
